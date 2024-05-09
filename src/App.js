@@ -12,23 +12,28 @@ const students = [
     skills: [
       {
         data: "Html",
-        emoji: "😁"
+        emoji: "😁",
+        color: "orange"
       },
       {
         data: "Css",
-        emoji: "🤩"
+        emoji: "🤩",
+        color: "pink"
       },
       {
         data: "Javascript",
-        emoji: "🦾"
+        emoji: "🦾",
+        color: "yellow"
       },
       {
         data: "Boostrap",
-        emoji: "😎"
+        emoji: "😎",
+        color: "blue"
       },
       {
         data: "React",
-        emoji: "🤺"
+        emoji: "🤺",
+        color: "powderblue"
       },
     ]
   },
@@ -40,23 +45,28 @@ const students = [
     skills: [
       {
         data: "Html",
-        emoji: "😁"
+        emoji: "😁",
+        color: "orange"
       },
       {
         data: "Css",
-        emoji: "🤩"
+        emoji: "🤩",
+        color: "pink"
       },
       {
         data: "Javascript",
-        emoji: "🦾"
+        emoji: "🦾",
+        color: "yellow"
       },
       {
         data: "Boostrap",
-        emoji: "😎"
+        emoji: "😎",
+        color: "blue"
       },
       {
         data: "React",
-        emoji: "🤺"
+        emoji: "🤺",
+        color: "powderblue"
       },
     ]
   },
@@ -68,23 +78,28 @@ const students = [
     skills: [
       {
         data: "Html",
-        emoji: "😁"
+        emoji: "😁",
+        color: "orange"
       },
       {
         data: "Css",
-        emoji: "🤩"
+        emoji: "🤩",
+        color: "pink"
       },
       {
         data: "Javascript",
-        emoji: "🦾"
+        emoji: "🦾",
+        color: "yellow"
       },
       {
         data: "Boostrap",
-        emoji: "😎"
+        emoji: "😎",
+        color: "blue"
       },
       {
         data: "React",
-        emoji: "🤺"
+        emoji: "🤺",
+        color: "powderblue"
       },
     ]
   },
@@ -96,23 +111,28 @@ const students = [
     skills: [
       {
         data: "Html",
-        emoji: "😁"
+        emoji: "😁",
+        color: "orange"
       },
       {
         data: "Css",
-        emoji: "🤩"
+        emoji: "🤩",
+        color: "pink"
       },
       {
         data: "Javascript",
-        emoji: "🦾"
+        emoji: "🦾",
+        color: "yellow"
       },
       {
         data: "Boostrap",
-        emoji: "😎"
+        emoji: "😎",
+        color: "blue"
       },
       {
         data: "React",
-        emoji: "🤺"
+        emoji: "🤺",
+        color: "powderblue"
       },
     ]
   },
@@ -124,23 +144,28 @@ const students = [
     skills: [
       {
         data: "Html",
-        emoji: "😁"
+        emoji: "😁",
+        color: "orange"
       },
       {
         data: "Css",
-        emoji: "🤩"
+        emoji: "🤩",
+        color: "pink"
       },
       {
         data: "Javascript",
-        emoji: "🦾"
+        emoji: "🦾",
+        color: "yellow"
       },
       {
         data: "Boostrap",
-        emoji: "😎"
+        emoji: "😎",
+        color: "blue"
       },
       {
         data: "React",
-        emoji: "🤺"
+        emoji: "🤺",
+        color: "powderblue"
       },
     ]
   },
@@ -152,23 +177,28 @@ const students = [
     skills: [
       {
         data: "Html",
-        emoji: "😁"
+        emoji: "😁",
+        color: "orange"
       },
       {
         data: "Css",
-        emoji: "🤩"
+        emoji: "🤩",
+        color: "pink"
       },
       {
         data: "Javascript",
-        emoji: "🦾"
+        emoji: "🦾",
+        color: "yellow"
       },
       {
         data: "Boostrap",
-        emoji: "😎"
+        emoji: "😎",
+        color: "blue"
       },
       {
         data: "React",
-        emoji: "🤺"
+        emoji: "🤺",
+        color: "powderblue"
       },
     ]
   },
@@ -181,23 +211,28 @@ const students = [
     skills: [
       {
         data: "Html",
-        emoji: "😁"
+        emoji: "😁",
+        color: "orange"
       },
       {
         data: "Css",
-        emoji: "🤩"
+        emoji: "🤩",
+        color: "pink"
       },
       {
         data: "Javascript",
-        emoji: "🦾"
+        emoji: "🦾",
+        color: "yellow"
       },
       {
         data: "Boostrap",
-        emoji: "😎"
+        emoji: "😎",
+        color: "blue"
       },
       {
         data: "React",
-        emoji: "🤺"
+        emoji: "🤺",
+        color: "powderblue"
       },
     ]
   },
@@ -210,23 +245,28 @@ const students = [
     skills: [
       {
         data: "Html",
-        emoji: "😁"
+        emoji: "😁",
+        color: "orange"
       },
       {
         data: "Css",
-        emoji: "🤩"
+        emoji: "🤩",
+        color: "pink"
       },
       {
         data: "Javascript",
-        emoji: "🦾"
+        emoji: "🦾",
+        color: "yellow"
       },
       {
         data: "Boostrap",
-        emoji: "😎"
+        emoji: "😎",
+        color: "blue"
       },
       {
         data: "React",
-        emoji: "🤺"
+        emoji: "🤺",
+        color: "powderblue"
       },
     ]
   },
@@ -269,7 +309,7 @@ return <>
   <img src={student.image} alt="" />
   <h1>{student.name}</h1>
    <p>{student.email}</p>
-   {student.skills.map((skill)=> <Button skill={skill.data} emoji={skill.emoji}/>)}
+   {student.skills.map((skill)=> <Button skill={skill.data} emoji={skill.emoji} color={skill.color}/>)}
     
   </div>)}
 
